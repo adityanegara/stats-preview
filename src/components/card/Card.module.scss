@@ -67,3 +67,62 @@
 .purple-text {
   color: $softViolet;
 }
+
+@media only screen and (min-width: 800px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 0vh;
+    .card-image {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 0px;
+      background: linear-gradient(
+          0deg,
+          hsl(277, 64%, 61%, 0.6),
+          hsl(277, 64%, 61%, 0.5)
+        ),
+        url('../../assets/image-header-desktop.jpg');
+      background-size: 100% 100%;
+      height: auto;
+      background-color: red;
+      width: 100%;
+    }
+    .card-content {
+      padding-top: 5vh;
+      padding-bottom: 8vh;
+      width: 100%;
+      text-align: left;
+      .card-title {
+        font-size: 2.2em;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .card-description {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 4vh;
+      }
+      .card-data__group {
+        flex-direction: row;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        .card-data {
+          p:nth-child(1) {
+            color: white;
+            font-family: $primaryFont;
+            font-weight: bold;
+            font-size: 1.3em;
+          }
+          p:nth-child(2) {
+            color: $slightlyTransparentWhiteTwo;
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}
