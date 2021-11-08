@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63b8e5f8.chunk.css",
+    "main.js": "/static/js/main.95b62af9.chunk.js",
+    "main.js.map": "/static/js/main.95b62af9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.65b1447c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.65b1447c.js.map",
+    "static/js/2.a06d3d57.chunk.js": "/static/js/2.a06d3d57.chunk.js",
+    "static/js/2.a06d3d57.chunk.js.map": "/static/js/2.a06d3d57.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.63b8e5f8.chunk.css.map": "/static/css/main.63b8e5f8.chunk.css.map",
+    "static/js/2.a06d3d57.chunk.js.LICENSE.txt": "/static/js/2.a06d3d57.chunk.js.LICENSE.txt",
+    "static/media/Card.module.scss": "/static/media/image-header-mobile.399f71e7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65b1447c.js",
+    "static/js/2.a06d3d57.chunk.js",
+    "static/css/main.63b8e5f8.chunk.css",
+    "static/js/main.95b62af9.chunk.js"
+  ]
+}
